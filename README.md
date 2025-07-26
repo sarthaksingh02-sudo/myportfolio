@@ -1,4 +1,4 @@
-# Sarthak Singh – AI/ML Portfolio 🚀
+# Sarthak Singh Portfolio 🚀
 
 > **Personal portfolio showcasing my journey as an AI/ML student, mental health technology innovator, and research contributor in modern emotion recognition systems.**
 

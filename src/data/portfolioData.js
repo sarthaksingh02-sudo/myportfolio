@@ -1,4 +1,11 @@
 // Updated with Sarthak Singh's actual project information
+import voiceEmotionImg from '../assets/voice-emotion-recognition.jpg';
+import empathWearableImg from '../assets/empath-wearable.jpg';
+import voiceWebappImg from '../assets/voice-webapp.jpg';
+import twitterSentimentImg from '../assets/twitter-sentiment.jpg';
+import mentalHealthBotImg from '../assets/mental-health-bot.jpg';
+import spotifyAppImg from '../assets/spotify-app.jpg';
+import arCampusImg from '../assets/ar-campus.jpg';
 export const personalInfo = {
   name: "Sarthak Singh",
   title: "AI/ML Student & Mental Health Tech Innovator",
@@ -78,7 +85,7 @@ export const ongoingProjects = [
     states and mental health indicators. This research aims to create early detection systems for depression, anxiety, and 
     other mental health conditions through non-invasive voice analysis, potentially revolutionizing how we approach mental 
     healthcare screening and monitoring.`,
-    image: "/project-voice-emotion.jpg",
+    image: voiceEmotionImg,
     tech: ["Python", "TensorFlow", "Speech Processing", "Machine Learning", "Healthcare AI", "Signal Processing"],
     github: "https://github.com/sarthaksingh02-sudo/voice-emotion-recognition",
     status: "In Progress",
@@ -92,7 +99,7 @@ export const ongoingProjects = [
     them into contextual text messages. This system helps bridge communication gaps by allowing receivers to understand the 
     sender's true emotional state, enhancing empathy and meaningful connections in digital communication. The project combines 
     IoT sensors, machine learning, and natural language generation to create authentic emotional expression.`,
-    image: "/project-empath.jpg",
+    image: empathWearableImg,
     tech: ["IoT Sensors", "Wearable Tech", "Firebase", "Machine Learning", "NLP", "Real-time Processing"],
     github: "https://github.com/sarthaksingh02-sudo/empath-system",
     status: "In Development",
@@ -110,7 +117,7 @@ export const completedProjects = [
     The platform features an intuitive interface where users can record voice samples and receive instant emotional analysis 
     with detailed insights. This project serves as the frontend demonstration of my ongoing voice emotion research, making 
     the technology accessible and user-friendly for testing and validation.`,
-    image: "/project-voice-webapp.jpg",
+    image: voiceWebappImg,
     tech: ["React", "JavaScript", "Web Audio API", "Python Backend", "Machine Learning APIs"],
     github: "https://github.com/sarthaksingh02-sudo/voice-emotion-webapp",
     live: "https://voice-emotion-app.vercel.app",
@@ -126,7 +133,7 @@ export const completedProjects = [
     feature extraction, and machine learning model training to classify sentiments with high accuracy. This work provided 
     valuable insights into public opinion dynamics and demonstrated the power of NLP in understanding social media sentiment 
     at scale.`,
-    image: "/project-twitter-sentiment.jpg",
+    image: twitterSentimentImg,
     tech: ["Python", "NLTK", "Pandas", "Scikit-learn", "Twitter API", "Data Visualization", "Statistical Analysis"],
     github: "https://github.com/sarthaksingh02-sudo/twitter-sentiment-analysis",
     completedDate: "June - October 2024",
@@ -142,7 +149,7 @@ export const completedProjects = [
     using advanced API integrations. The bot incorporates natural language understanding to offer empathetic responses, 
     coping strategies, and mental wellness resources. This project was one of my early explorations into combining AI 
     technology with mental healthcare, laying the groundwork for my continued focus on this important field.`,
-    image: "/project-therapy-bot.jpg",
+    image: mentalHealthBotImg,
     tech: ["Python", "Natural Language Processing", "API Integration", "Chatbot Development", "Mental Health APIs"],
     github: "https://github.com/sarthaksingh02-sudo/mental-health-bot",
     completedDate: "First Year (2024)",
@@ -156,7 +163,7 @@ export const completedProjects = [
     download songs from users' liked playlists. The application features smart playlist management, batch downloading 
     capabilities, and seamless integration with personal music libraries. This project showcased my ability to work with 
     complex APIs and create user-friendly applications that enhance the music listening experience.`,
-    image: "/project-spotipy.jpg",
+    image: spotifyAppImg,
     tech: ["Python", "Spotify API", "Audio Processing", "File Management", "GUI Development"],
     github: "https://github.com/sarthaksingh02-sudo/spotipy-downloader",
     completedDate: "First Year (2024)",
@@ -172,7 +179,7 @@ export const completedProjects = [
     registration constraints limiting the team to three members, I contributed significantly to the project's success while 
     supporting teammates Himanshu Majumdar, Hritesh, and Samit Singh Bag. This victory marked our first major collaborative 
     achievement and inspired us to pursue more ambitious projects in immersive technology.`,
-    image: "/project-ar-campus.jpg",
+    image: arCampusImg,
     tech: ["Unity 3D", "AR/VR Development", "3D Modeling", "C#", "Immersive Technology", "Team Collaboration"],
     github: "https://github.com/sarthaksingh02-sudo/ar-campus-model",
     completedDate: "2024",
